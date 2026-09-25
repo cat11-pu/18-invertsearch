@@ -1,0 +1,11 @@
+{
+  "dup_code": "E_DUP_ID",
+  "consistent": true,
+  "docs": [
+    {"id": "d0", "text": "the quick brown fox"},
+    {"id": "d1", "text": "the quick brown dog"},
+    {"id": "d2", "text": "quick brown"}
+  ],
+  "phrases": [["quick", "brown"], ["brown", "fox"], ["the", "brown"]],
+  "update": {"id": "d2", "text": "quick red brown"}
+}
